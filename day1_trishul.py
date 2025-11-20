@@ -68,14 +68,14 @@ try:
     height = 2 * N + 1
     for i in range(height):
         if i < N or i >= N + 1:
-            print("      ⚡      ".center(20))
+            print("⚡".center(20))
         else:
             print("⚡⚡⚡⚡⚡".center(20))
 except:
     print("Invalid N – defaulting to N=3")
     N = 3
     for i in range(7):
-        print("      ⚡      " if i != 3 else " ⚡⚡⚡⚡⚡ ")
+        print("⚡" if i != 3 else " ⚡⚡⚡⚡⚡ ")
 
 print("\n" + "="*50)
 
